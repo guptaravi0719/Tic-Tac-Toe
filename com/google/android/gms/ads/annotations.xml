@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='com.google.android.gms.ads.AdRequest.Builder com.google.android.gms.ads.AdRequest.Builder addTestDevice(java.lang.String)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

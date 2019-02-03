@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "552397571415",
+    "firebase_url": "https://tictoe-b917f.firebaseio.com",
+    "project_id": "tictoe-b917f",
+    "storage_bucket": "tictoe-b917f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552397571415:android:dc461e68a1330f33",
+        "android_client_info": {
+          "package_name": "com.example.tictoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552397571415-e9hfqr7o2o2et8cllk23uu5ejm4j6m5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tictoe",
+            "certificate_hash": "ac1d772087b220237ee70a3d329ba39d5eac0dcd"
+          }
+        },
+        {
+          "client_id": "552397571415-gr1e27m7b5ku2dhp7vd5n4d4vg6uq4en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA--ClDXhHhLvA0fGAtUzpeZcb6lh1lDG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552397571415-gr1e27m7b5ku2dhp7vd5n4d4vg6uq4en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

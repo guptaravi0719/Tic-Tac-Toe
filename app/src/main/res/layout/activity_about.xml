@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+
+    >
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fffa84"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="About Us"
+            android:gravity="center_horizontal"
+            android:textSize="50dp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="5dp"
+            android:fontFamily="cursive"
+            android:textColor="#581845"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/ravidp"
+            android:visibility="visible"
+            android:layout_weight="1"
+             />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="10dp"
+android:textColor="#000000"
+            android:text=" Developer\nRAVI GUPTA \n\n\n * This game is developed by Toolsfortools.\n "
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+           />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/email"
+            android:visibility="visible"
+            android:onClick="sendMail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="sendMail"
+            android:text=" tooslsfortools1907@gmail.com"
+            android:textColor="#581845"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here for more Apps and Games"
+        android:clickable="true"
+            android:onClick="playStoreDirect"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:textColor="#B81919"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+</RelativeLayout>
